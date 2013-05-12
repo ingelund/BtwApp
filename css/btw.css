@@ -9,17 +9,15 @@ body {
 	margin-top: 25px;
 	width: 320px;
 	height: inherit;
-	border: 1px solid #ff0000;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 #start-container {
 	background: #999;
-	border:1px solid #ff0000;
 	margin-top: 25px;
 	width: 320px;
-	height: 480px;
+	height: inherit;
 	margin-right: auto;
 	margin-left: auto;
 }
