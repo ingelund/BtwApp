@@ -1,11 +1,5 @@
 function onPhotoDataSuccess(imageData) {
-	$.ajax({
-      type: "POST",
-      url: 'plaatje.html',
-      data: imageData,
-      success: success,
-      dataType: html
-    });
+	alert(imageData);
 }
 
 function onFail() {
