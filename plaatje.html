@@ -26,20 +26,10 @@
 <body>
 
 <div id="main-container">
+	<a class="knop" onclick="testCam()">Maak een foto.</a>
 
     <div id="plaatje">
     </div>
-    
-    <script>
-        
-        function init() {
-            $.post('plaatje.html', function(data) {
-              $('#plaatje').html('<img src="' + "data:image/jpeg;base64," + data + '">');
-            });
-        }
-        window.onload = init;
-        
-    </script>
 </div>
 </body>
 </html>

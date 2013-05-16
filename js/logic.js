@@ -1,5 +1,5 @@
 function onPhotoDataSuccess(imageData) {
-	alert(imageData);
+	$('#plaatje').html(imageData);
 }
 
 function onFail() {
