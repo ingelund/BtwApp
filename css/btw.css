@@ -257,3 +257,7 @@ a.knop:hover, a.knop:active {
 	margin-top: 15px;
 	color: #fff;
 }
+
+.foto-frame img {
+	border-radius: 5px;
+}
