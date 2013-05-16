@@ -259,5 +259,7 @@ a.knop:hover, a.knop:active {
 }
 
 .foto-frame img {
-	border-radius: 5px;
+	border-radius: 3px;
+	margin: 0;
+	padding: 0;
 }

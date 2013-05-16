@@ -1,4 +1,9 @@
 function onPhotoDataSuccess(imageData) {
+    element = document.getElementById('nog-geen-foto');
+    element.parentNode.removeChild(element);
+
+    $('.foto-frame').css('background','#ffffff');
+
 	myImage = document.getElementById('foto');
     myImage.src = "data:image/jpeg;base64," + imageData;
 }
