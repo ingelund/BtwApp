@@ -197,7 +197,8 @@ a.knop:hover, a.knop:active {
 
 .tekst {
 	margin-top: 15px;
-	margin-left: 10px;
+	margin-left: 15px;
+	margin-bottom: 15px;
 	float: left;
 	color: #fff;
 	text-align: left;
@@ -243,3 +244,16 @@ a.knop:hover, a.knop:active {
 	float:left;
 	margin: 15px;
 	}
+
+.foto-frame {
+	border: 5px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	width: 280px;
+	margin: 0 auto;
+}
+
+#nog-geen-foto {
+	margin-top: 15px;
+	color: #fff;
+}

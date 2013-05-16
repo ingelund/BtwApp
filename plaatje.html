@@ -25,11 +25,21 @@
 
 <body>
 
-<div id="main-container">
-	<a class="knop" onclick="testCam()">Maak een foto.</a>
+<div id="start-container">
 
-    <div id="plaatje">
-    	<img id="foto" width="200" />
+	<div class="tekst">
+		<h4>Maak een foto en ga verder</h4>
+        <h4 style="color:#03c">Take a picture and continue</h4>
+	</div>
+
+	<a class="knop" href="#" onclick="testCam()">Maak een foto.</a>
+
+    <div class="foto-frame">
+    	<p id="nog-geen-foto">
+    		U heeft nog geen foto gemaakt.<br />
+    		<span class="blauw">You have not taken a photo yet.</span>
+    	</p>
+    	<img id="foto" width="280" />
     </div>
 </div>
 </body>
