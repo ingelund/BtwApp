@@ -1,6 +1,8 @@
 function onPhotoDataSuccess(imageData) {
-    element = document.getElementById('nog-geen-foto');
-    element.parentNode.removeChild(element);
+    if (document.getElementById('nog-geen-foto')) {
+        element = document.getElementById('nog-geen-foto');
+        element.parentNode.removeChild(element);
+    } 
 
     $('.foto-frame').css('background','#ffffff');
 
