@@ -1,5 +1,6 @@
 function onPhotoDataSuccess(imageData) {
-	alert('Succes!');
+	myImage = document.getElementById('foto');
+    myImage.src = "data:image/jpeg;base64," + imageData;
 }
 
 function onFail() {
