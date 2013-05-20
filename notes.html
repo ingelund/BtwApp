@@ -23,6 +23,7 @@
 <body>
 
 <div id="main-container">
+
 <script language="JavaScript">
 function Results (form) {
     var input1 = form.input1.value;
@@ -86,7 +87,23 @@ function Results (form) {
     </div>
 
 </form>
+<script language="JavaScript">
+function Results (form) {
+    var input1 = form.input1.value;
+	var input2 = form.input2.value;
+	var input3 = form.input3.value;
+	var input4 = form.input4.value;
+	var input5 = form.input5.value;
+	var input6 = form.input6.value;
+    document.write("<em>Artikel/Product : </em>" + input1 + "<br />");
+	document.write("<em>Type nr : </em>" + input2 + "<br />");
+	document.write("<em>Kleur / Color : </em>" + input3 + "<br />");
+	document.write("<em>Prijs / Price : </em>" + input4 + "<br />");
+	document.write("<em>Winkel / Shop : </em>" + input5 + "<br />");
+	document.write("<em>Bijzonderheden / Details : </em>" + input6 + "<br />");
+}
 
+</script>
 </div>
 </body>
 </html>
