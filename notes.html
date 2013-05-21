@@ -50,12 +50,12 @@ function Results (form) {
 </div>
 
 <div>
-<label>Type nr</label>
+<label>Merk / Brand Type-nr</label>
 <input type="text" name="input2" id="input2" value="" />
 </div>
 
 <div>
-<label>Kleur /Color</label>
+<label>Kleur / Color</label>
 <input type="text" name="input3" id="input3" value="" />
 </div>
 
@@ -74,36 +74,17 @@ function Results (form) {
 <input type="text" name="input6" id="input6"  value="" />
 </div>
 <div>
-<input  type="submit" value="Submit" onClick="Results(this.form)">
+<button  type="submit" name="Submit" onClick="Results(this.form)">Submit</button>
 </div>
 
 
-<!--
-<a class="knop" href="#"  title="submit" onclick="Results(this.form)"  >Submit  </a>
--->
+
 
 </fieldset>
 <a href="menu.html" data-transition="flip" data-direction="reverse">- menu -</a>
     </div>
 
-</form>
-<script language="JavaScript">
-function Results (form) {
-    var input1 = form.input1.value;
-	var input2 = form.input2.value;
-	var input3 = form.input3.value;
-	var input4 = form.input4.value;
-	var input5 = form.input5.value;
-	var input6 = form.input6.value;
-    document.write("<em>Artikel/Product : </em>" + input1 + "<br />");
-	document.write("<em>Type nr : </em>" + input2 + "<br />");
-	document.write("<em>Kleur / Color : </em>" + input3 + "<br />");
-	document.write("<em>Prijs / Price : </em>" + input4 + "<br />");
-	document.write("<em>Winkel / Shop : </em>" + input5 + "<br />");
-	document.write("<em>Bijzonderheden / Details : </em>" + input6 + "<br />");
-}
 
-</script>
 </div>
 </body>
 </html>

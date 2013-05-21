@@ -63,12 +63,42 @@
         <label for="uitkomst">Uitkomst:<span class="blauw">&nbsp;&nbsp;&nbsp;Result</span></label>
         <input type="text" name="som" id="som"  />
       </div>
+     
       
+      <button type="submit" name="submit" onclick="getset(this.form)">
+      Zet uitkomst in eerste vak <br />en ga door
+      </button>
+      
+      <!--
+      
+       <a href="#" class="knop" onclick="getset(this.form)" title="verplaats" >verplaats</a>
+      
+    
+      <div> 
+ 		<input type="button" name="submit" id="submit" value="zet als eerste en ga verder" onClick="getset(this.form)">
+      </div>
+    -->
+    
     </fieldset>
-    <div> <a href="menu.html" data-direction="reverse" data-transition="flip">- menu -</a> </div>
+    
+    <div> 
+    <a href="menu.html" data-direction="reverse" data-transition="flip">- menu -</a>
+    </div>
+    
     </form>
     
     <script>
+    
+    	function getset(f) {
+    	'use strict'
+    	f.waarde1.value=f.som.value;
+    	f.waarde2.value="0.00";
+    	f.waarde3.value="0.00";
+    	f.waarde4.value="0.00";
+    	f.waarde5.value="0.00";
+    	f.waarde6.value="0.00";
+    	f.som.value="";
+    	}
         
         function Optellen() {
             'use strict' 
@@ -95,5 +125,6 @@
         
         </script>
 </div>
+
 </body>
 </html>
