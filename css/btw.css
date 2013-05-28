@@ -95,7 +95,11 @@ form#noteForm {
 
 #noteForm submit{
 	background-color:#000;
+<<<<<<< HEAD
 	color:#ff0000;
+=======
+	color:#FFF;
+>>>>>>> ingmaster
 	}
 
 #noteForm fieldset {
@@ -353,6 +357,7 @@ a.knop:hover, a.knop:active {
 	padding: 0;
 }
 
+<<<<<<< HEAD
 #noteForm input[type=submit], #noteForm button
 {
 	clear: both;
@@ -395,3 +400,5 @@ a.knop:hover, a.knop:active {
 	font-weight: bold;
 }
 
+=======
+>>>>>>> ingmaster
