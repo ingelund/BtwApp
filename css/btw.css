@@ -371,6 +371,27 @@ a.knop:hover, a.knop:active {
 	text-decoration: none;
 	color: #ff0000;
 	font-size: 12px;
+	font-weight: bold;
 }
 
+#opteller input[type=submit], #opteller button
+{
+	clear: both;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px; 
+	display: block;
+	padding: 5px;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 12px;
+	font-weight: bold;
+}
 
