@@ -93,11 +93,6 @@ form#noteForm {
 	float:left;
 }
 
-#noteForm submit{
-	background-color:#000;
-	color:#ff0000;
-	}
-
 #noteForm fieldset {
 	border: 2px solid #ff0000;
 	padding: 0 15px 15px;
@@ -353,6 +348,7 @@ a.knop:hover, a.knop:active {
 	padding: 0;
 }
 
+
 #noteForm input[type=submit], #noteForm button
 {
 	clear: both;
@@ -394,4 +390,5 @@ a.knop:hover, a.knop:active {
 	font-size: 12px;
 	font-weight: bold;
 }
+
 
