@@ -97,6 +97,7 @@ form#noteForm {
 	background-color:#000;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	color:#ff0000;
 =======
 	color:#FFF;
@@ -104,6 +105,9 @@ form#noteForm {
 =======
 	color:#FFF;
 >>>>>>> origin/ingmaster
+=======
+	color:#ff0000;
+>>>>>>> 561dda0242ad09b1d44becb54f8c0f6f2632558f
 	}
 
 #noteForm fieldset {
@@ -363,6 +367,7 @@ a.knop:hover, a.knop:active {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #noteForm input[type=submit], #noteForm button
 {
 	clear: both;
@@ -409,3 +414,13 @@ a.knop:hover, a.knop:active {
 >>>>>>> refs/heads/ingmaster
 =======
 >>>>>>> origin/ingmaster
+=======
+input[type=submit], button
+{
+	background-color: #ff0000;
+	color: #fff;
+	width: 150px;
+}
+
+
+>>>>>>> 561dda0242ad09b1d44becb54f8c0f6f2632558f
