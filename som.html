@@ -51,24 +51,50 @@
         <input type="text" name="waarde5" id="waarde5"   value="0.00" onFocus="this.value='';" required/>
       </div>
       
-      <div>
-        <input type="text" name="waarde6" id="waarde6"   value="0.00" onFocus="this.value='';" required/>
-      </div>
       
       <div> 
       	<a href="#" class="knop" onClick="Optellen()" title="Optellen">Tel op<span class="blauw">&nbsp;&nbsp;&nbsp;Count</span></a> 
       </div>
       
       <div>
-        <label for="uitkomst">Uitkomst:<span class="blauw">&nbsp;&nbsp;&nbsp;Result</span></label>
+        <label for="uitkomst">Uitkomst:<span class="blauw">&nbsp;&nbsp;&nbsp;Result:</span></label>
         <input type="text" name="som" id="som"  />
       </div>
       
+     <div>
+      
+     	<div class="wit uitlijn">
+		  	Zet uitkomst in eerste veld en tel verder op 
+		  	</div>
+		  	
+		  	<div class="blauw uitlijn">
+		  	Put result in first field and proceed to count
+		  	</div>
+		  	
+      
+      <button type="submit" name="submit" onclick="getset(this.form)" data-role="none">
+      Ga door<span class="blauw">&nbsp;&nbsp;&nbsp;Proceed</span>
+      </button>
+      </div>
+      
+     
+     
     </fieldset>
-    <div> <a href="menu.html" data-direction="reverse" data-transition="flip">- menu -</a> </div>
+   
+    <a href="menu.html" data-direction="reverse" data-transition="flip">- menu -</a>
     </form>
     
     <script>
+    
+    	function getset(f) {
+    	'use strict'
+    	f.waarde1.value=f.som.value;
+    	f.waarde2.value="0.00";
+    	f.waarde3.value="0.00";
+    	f.waarde4.value="0.00";
+    	f.waarde5.value="0.00";
+    	f.som.value="";
+    	}
         
         function Optellen() {
             'use strict' 
@@ -79,9 +105,8 @@
             var g3 = document.getElementById('waarde3').value;
             var g4 = document.getElementById('waarde4').value;
             var g5 = document.getElementById('waarde5').value;
-            var g6 = document.getElementById('waarde6').value;
             
-            var som = parseFloat(g1)+parseFloat(g2)+parseFloat(g3)+parseFloat(g4)+parseFloat(g5)+parseFloat(g6);
+            var som = parseFloat(g1)+parseFloat(g2)+parseFloat(g3)+parseFloat(g4)+parseFloat(g5);
             
             document.getElementById('som').value = som;
             return false;    
@@ -95,5 +120,6 @@
         
         </script>
 </div>
+
 </body>
 </html>

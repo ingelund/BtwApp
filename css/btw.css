@@ -50,6 +50,85 @@ form#opteller {
 	clear:both;
 }
 
+/*-----------------------------------------*/
+/*Aantekeningen formulier*/
+form#noteForm {
+	background:#999;
+	padding:15px;
+	border-radius: 5px;
+	width: 290px;
+	height: 450px;
+	font-size:12px;	
+}
+form#noteForm {
+	background:#999;
+	padding:15px;
+	border-radius: 5px;
+	width: 290px;
+	height: 450px;
+	font-size:12px;
+}
+
+#noteForm label {
+	font-size: 12px;
+	color: #fff;
+	padding-left: 10px;
+	float:none;
+	width:180px;
+	display:block;
+	clear:both;
+}
+
+#noteForm input{
+	color: #999;
+	font-size: 12px;
+	padding: 3px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	border:1px solid #03c;
+	background-color:#fff;
+	border-radius: 5px;
+	display:block;
+	float:left;
+}
+
+#noteForm submit{
+	background-color:#000;
+	color:#ff0000;
+	}
+
+#noteForm fieldset {
+	border: 2px solid #ff0000;
+	padding: 0 15px 15px;
+	border-radius: 5px;
+}
+
+#noteForm fieldset div {
+	margin: 5px 0;
+	clear:both;
+}
+
+#noteForm div.ui-input-text {
+	float: left;
+	clear: none;
+}
+
+#noteForm legend {
+	color:#fff;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#noteForm legend span {
+	width:100px;
+	text-align: right;
+}
+
+
+/*-----------------------------------------*/
+
 #opteller fieldset {
 	border: 2px solid #ff0000;
 	padding: 0 15px 15px;
@@ -169,29 +248,39 @@ a:hover, a:active {
 }
 a.knop:link, a.knop:visited {
 	clear: both;
-	background: #dd0000;
-	margin: 15px;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px; 
 	display: block;
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: 15px;
 	border: 2px solid #fff;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	color: #ff0000;
 	font-size: 12px;
 }
 
 a.knop:hover, a.knop:active {
 	clear: both;
-	background: #dd0000;
-	margin: 15px;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px;
 	display: block;
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: 15px;
 	border: 2px solid #fff;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	color: #ff0000;
 	font-size: 12px;
 }
 
@@ -263,3 +352,46 @@ a.knop:hover, a.knop:active {
 	margin: 0;
 	padding: 0;
 }
+
+#noteForm input[type=submit], #noteForm button
+{
+	clear: both;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px; 
+	display: block;
+	padding: 5px;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#opteller input[type=submit], #opteller button
+{
+	clear: both;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px; 
+	display: block;
+	padding: 5px;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
