@@ -96,13 +96,6 @@ form#noteForm {
 #noteForm submit{
 	background-color:#000;
 	color:#ff0000;
-<<<<<<< HEAD
-=======
-	color:#ff0000;
-	color:#FFF;
-	color:#FFF;
-	color:#ff0000;
->>>>>>> e71dd356481294f73d49263857d84d78d03da3a4
 	}
 
 #noteForm fieldset {
@@ -402,12 +395,3 @@ a.knop:hover, a.knop:active {
 	font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
-input[type=submit], button
-{
-	background-color: #ff0000;
-	color: #fff;
-	width: 150px;
-}
->>>>>>> e71dd356481294f73d49263857d84d78d03da3a4
