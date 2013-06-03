@@ -95,7 +95,23 @@ form#noteForm {
 
 #noteForm submit{
 	background-color:#000;
+<<<<<<< HEAD
 	color:#ff0000;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	color:#ff0000;
+=======
+	color:#FFF;
+>>>>>>> refs/heads/ingmaster
+=======
+	color:#FFF;
+>>>>>>> origin/ingmaster
+=======
+	color:#ff0000;
+>>>>>>> 561dda0242ad09b1d44becb54f8c0f6f2632558f
+>>>>>>> 26c3506f57a2e3cb5e8c8ca5a997e9649d787660
 	}
 
 #noteForm fieldset {
@@ -353,6 +369,12 @@ a.knop:hover, a.knop:active {
 	padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26c3506f57a2e3cb5e8c8ca5a997e9649d787660
 #noteForm input[type=submit], #noteForm button
 {
 	clear: both;
@@ -395,3 +417,20 @@ a.knop:hover, a.knop:active {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> refs/heads/ingmaster
+=======
+>>>>>>> origin/ingmaster
+=======
+input[type=submit], button
+{
+	background-color: #ff0000;
+	color: #fff;
+	width: 150px;
+}
+
+
+>>>>>>> 561dda0242ad09b1d44becb54f8c0f6f2632558f
+>>>>>>> 26c3506f57a2e3cb5e8c8ca5a997e9649d787660
